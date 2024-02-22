@@ -1,0 +1,62 @@
+bedroom_choices = {
+    '1':1,
+    '2':2,
+    '3':3,
+    '4':4,
+    '5':5,
+    '6':6,
+    '7':7,
+    '8':8,
+    '9':9
+}
+
+price_choices = {
+    '10': 'Rs 10,00,000',
+    '20': 'Rs 20,00,000',
+    '30': 'Rs 30,00,000',
+    '40': 'Rs 40,00,000',
+    '50': 'Rs 50,00,000',
+    '60': 'Rs 60,00,000',
+    '70': 'Rs 70,00,000',
+    '80': 'Rs 80,00,000',
+    '90': 'Rs 90,00,000',
+    '100': 'Rs 100,00,000 +'
+}
+
+state_choices = {
+    'AN': 'Andaman And Nicobar Islands',
+    'AP': 'Andhra Pradesh',
+    'AR': 'Arunachal Pradesh',
+    'AS': 'Assam',
+    'BI': 'Bihar',
+    'CN': 'Chandigarh',
+    'CG': 'Chattisgarh',
+    'DN': 'Dadra and Nagar Haveli and Daman and Diu',
+    'DL': 'Delhi',
+    'GO': 'Goa',
+    'GJ': 'Gujarat',
+    'HR': 'Haryana',
+    'HP': 'Himachal Pradesh',
+    'JK': 'Jammu and Kashmir',
+    'JK': 'Jharkhand',
+    'KN': 'Karnatka',
+    'KR': 'Kerala',
+    'LK': 'Ladakh',
+    'LD': 'Lakshadweep',
+    'MP': 'Madhya Pradesh',
+    'MR': 'Maharashtra',
+    'MA': 'Manipur',
+    'MZ': 'Mizoram',
+    'NL': 'Nagaland',
+    'OD': 'Odisha',
+    'PD': 'Puducherry',
+    'PJ': 'Punjab',
+    'RJ': 'Rajasthan',
+    'SK': 'Sikkim',
+    'TN': 'Tamil Nadu',
+    'TG': 'Telangana',
+    'TR': 'Tripura',
+    'UK': 'Uttrakhand',
+    'UP': 'Uttar Pradesh',
+    'WB': 'West Bengal'
+}
