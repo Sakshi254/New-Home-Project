@@ -84,14 +84,17 @@ WSGI_APPLICATION = 'NewHome.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'home',
-        'USER': 'postgres',
-        'PASSWORD': 'comp',
-        'HOST': 'localhost'
+        'NAME': 'hdztnhft',
+        'USER': 'hdztnhft',
+        'PASSWORD': 'SC7i9oGvZYM272OFJX6M75bzGzl00xcN',
+        'HOST': 'rosie.db.elephantsql.com',
+        'PORT': '5432'
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgres://home_ncih_user:Ss3b9fJFr6ODbbixBbULo1CO0Y9q0Jnr@dpg-cnbld90cmk4c73aho33g-a.oregon-postgres.render.com/home_ncih")
+# DATABASE_URL = "postgres://hdztnhft:SC7i9oGvZYM272OFJX6M75bzGzl00xcN@rosie.db.elephantsql.com/hdztnhft"
+
+# DATABASES["default"] = dj_database_url.config(default=os.environ.get(DATABASE_URL))
 
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
