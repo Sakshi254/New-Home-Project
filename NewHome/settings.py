@@ -86,8 +86,8 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
        'NAME': 'home',
         'USER': 'postgres',
-        'PASSWORD': 'comp',
-        'HOST': 'localhost'
+        'PASSWORD': 'SC7i9oGvZYM272OFJX6M75bzGzl00xcN',
+        'HOST': 'rosie.db.elephantsql.com'
     }
 }
 
