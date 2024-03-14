@@ -83,7 +83,7 @@ WSGI_APPLICATION = 'NewHome.wsgi.application'
 
 DATABASES = {
    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
        'NAME': 'postgres.ewhikktmgxfalhlaqamb',
         'USER': 'postgres.ewhikktmgxfalhlaqamb',
         'PASSWORD': 'TORMGjgz9U4ujKeP',
