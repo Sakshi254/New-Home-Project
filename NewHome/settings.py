@@ -83,15 +83,16 @@ WSGI_APPLICATION = 'NewHome.wsgi.application'
 
 DATABASES = {
    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-       'NAME': 'postgres.ewhikktmgxfalhlaqamb',
-        'USER': 'postgres.ewhikktmgxfalhlaqamb',
-        'PASSWORD': 'TORMGjgz9U4ujKeP',
-        'HOST': 'aws-0-ap-northeast-2.pooler.supabase.com'
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'postgres',
+        'USER': 'postgres',
+        'PASSWORD': '9"iGE1tK}JzI*+^S',
+        'HOST': '35.227.171.19',
+        'PORT': '5432'
     }
 }
 
-DATABASES["default"] = dj_database_url.parse("postgres://postgres.ewhikktmgxfalhlaqamb:TORMGjgz9U4ujKeP@aws-0-ap-northeast-2.pooler.supabase.com:5432/postgres")
+# DATABASES["default"] = dj_database_url.parse("eng-cell-418506:us-west1:home25")
 # Password validation
 # https://docs.djangoproject.com/en/4.2/ref/settings/#auth-password-validators
 
